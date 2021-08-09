@@ -4,11 +4,19 @@ extern crate rocket;
 extern crate rocket_okapi;
 
 mod api_v1;
+mod rebrickable;
 
 use rocket_okapi::swagger_ui::*;
 
+fn test() -> () {
+    let db = rebrickable::load_db();
+
+    println!("loaded db");
+}
+
 #[rocket::main]
 async fn main() {
+    test();
     let result = rocket::build()
         .mount(
             "/",
