@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "johnsoncodehk.volar",
+        "visualstudioexptteam.vscodeintellicode",
+        "bradlc.vscode-tailwindcss",
+        "matklad.rust-analyzer",
+        "esbenp.prettier-vscode",
+        "christian-kohler.npm-intellisense",
+        "dbaeumer.vscode-eslint",
+        "editorconfig.editorconfig",
+        "vadimcn.vscode-lldb",
+        "be5invis.toml"
+    ]
+}
